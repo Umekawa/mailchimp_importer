@@ -1,0 +1,52 @@
+[
+  {
+    "name": "action",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "timestamp",
+    "type": "timestamp",
+    "mode": "required"
+  },
+  {
+    "name": "url",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "campaign_id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "title",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "parent_campaign",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "email_id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "list_id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "created_at",
+    "mode": "required",
+    "type": "timestamp"
+  }
+]

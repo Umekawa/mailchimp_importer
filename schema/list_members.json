@@ -1,0 +1,127 @@
+[
+  {
+    "name": "id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "email_address",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "unique_email_id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "email_type",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "status",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "unsubscribe_reason",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "merge_fields",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "interests",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "stats",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "ip_signup",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "timestamp_signup",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "ip_opt",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "timestamp_opt",
+    "type": "timestamp",
+    "mode": "required"
+  },
+  {
+    "name": "member_rating",
+    "type": "timestamp",
+    "mode": "required"
+  },
+  {
+    "name": "last_changed",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "language",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "vip",
+    "type": "boolean",
+    "mode": "required"
+  },
+  {
+    "name": "email_client",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "location",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "marketing_permissions",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "last_note",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "tags_count",
+    "type": "integer",
+    "mode": "required"
+  },
+  {
+    "name": "tags",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "list_id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "created_at",
+    "mode": "required",
+    "type": "timestamp"
+  }
+]

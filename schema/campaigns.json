@@ -1,0 +1,112 @@
+[
+  {
+    "name": "id",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "web_id",
+    "mode": "required",
+    "type": "integer"
+  },
+  {
+    "name": "parent_campaign_id",
+    "mode": "nullable",
+    "type": "string"
+  },
+  {
+    "name": "type",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "create_time",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "archive_url",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "long_archive_url",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "status",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "emails_sent",
+    "mode": "required",
+    "type": "integer"
+  },
+  {
+    "name": "send_time",
+    "mode": "nullable",
+    "type": "timestamp"
+  },
+  {
+    "name": "content_type",
+    "mode": "required",
+    "type": "string"
+  },
+  {
+    "name": "needs_block_refresh",
+    "mode": "required",
+    "type": "boolean"
+  },
+  {
+    "name": "recipients",
+    "mode": "required",
+    "type": "json"
+  },
+  {
+    "name": "settings",
+    "mode": "required",
+    "type": "json"
+  },
+  {
+    "name": "variate_settings",
+    "mode": "nullable",
+    "type": "json"
+  },
+  {
+    "name": "tracking",
+    "mode": "required",
+    "type": "json"
+  },
+  {
+    "name": "rss_opts",
+    "mode": "nullable",
+    "type": "json"
+  },
+  {
+    "name": "ab_split_opts",
+    "mode": "nullable",
+    "type": "json"
+  },
+  {
+    "name": "social_card",
+    "mode": "nullable",
+    "type": "json"
+  },
+  {
+    "name": "report_summary",
+    "mode": "nullable",
+    "type": "json"
+  },
+  {
+    "name": "delivery_status",
+    "mode": "required",
+    "type": "json"
+  },
+  {
+    "name": "created_at",
+    "mode": "required",
+    "type": "timestamp"
+  }
+]

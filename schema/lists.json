@@ -1,0 +1,107 @@
+[
+  {
+    "name": "id",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "web_id",
+    "type": "integer",
+    "mode": "required"
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "contact",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "permission_reminder",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "use_archive_bar",
+    "type": "boolean",
+    "mode": "required"
+  },
+  {
+    "name": "campaign_defaults",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "notify_on_subscribe",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "notify_on_unsubscribe",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "date_created",
+    "type": "timestamp",
+    "mode": "required"
+  },
+  {
+    "name": "list_rating",
+    "type": "integer",
+    "mode": "required"
+  },
+  {
+    "name": "email_type_option",
+    "type": "boolean",
+    "mode": "required"
+  },
+  {
+    "name": "subscribe_url_short",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "subscribe_url_long",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "beamer_address",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "visibility",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "double_optin",
+    "type": "boolean",
+    "mode": "required"
+  },
+  {
+    "name": "marketing_permissions",
+    "type": "boolean",
+    "mode": "required"
+  },
+  {
+    "name": "modules",
+    "type": "string",
+    "mode": "required"
+  },
+  {
+    "name": "stats",
+    "type": "json",
+    "mode": "required"
+  },
+  {
+    "name": "created_at",
+    "mode": "required",
+    "type": "timestamp"
+  }
+]
